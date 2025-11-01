@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 4, "column": 0}, "map": {"version":3,"sources":["file:///C:/Users/saran/Desktop/Projects/devevents/components/ExploreBtn.tsx"],"sourcesContent":["'use client'\r\n\r\nimport Image from \"next/image\"\r\n\r\nconst ExploreBtn = () => {\r\n    function handleClick() {\r\n\r\n    }\r\n    return (\r\n        <button type=\"button\" id=\"explore-btn\" className=\"mt-7 mx-auto\" onClick={() => handleClick}>\r\n            <a href=\"#evnets\">\r\n                Explore Events\r\n                <Image src=\"/icons/arrow-down.svg\" alt=\"arrow-down\" width={24} height={24} />\r\n            </a>\r\n        </button>\r\n\r\n    )\r\n}\r\n\r\nexport default ExploreBtn\r\n"],"names":[],"mappings":";;;;;AAEA;AAFA;;;AAIA,MAAM,aAAa;IACf,SAAS,eAET;IACA,qBACI,6LAAC;QAAO,MAAK;QAAS,IAAG;QAAc,WAAU;QAAe,SAAS,IAAM;kBAC3E,cAAA,6LAAC;YAAE,MAAK;;gBAAU;8BAEd,6LAAC,2IAAK;oBAAC,KAAI;oBAAwB,KAAI;oBAAa,OAAO;oBAAI,QAAQ;;;;;;;;;;;;;;;;;AAKvF;KAbM;uCAeS","debugId":null}}]
+}

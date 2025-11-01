@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 18, "column": 0}, "map": {"version":3,"sources":["file:///C:/Users/saran/Desktop/Projects/devevents/app/page.tsx"],"sourcesContent":["\nconst page = () => {\n  return (\n   <section>\n    <h1 className=\"text-center\">The Hub For Every Dev <br/> Event You Can't Miss</h1>\n    <p className=\"text-center mt-5\">Hackathons, Meetups, and Conferences, All in One Place</p>\n   </section>\n  )\n}\n\nexport default page\n"],"names":[],"mappings":";;;;;;AACA,MAAM,OAAO;IACX,qBACC,8OAAC;;0BACA,8OAAC;gBAAG,WAAU;;oBAAc;kCAAsB,8OAAC;;;;;oBAAI;;;;;;;0BACvD,8OAAC;gBAAE,WAAU;0BAAmB;;;;;;;;;;;;AAGpC;uCAEe","debugId":null}}]
+}
