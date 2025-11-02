@@ -1,9 +1,5 @@
 {
   "app": {
-    "[project]/app/_not-found/page": [
-      "static/media/31a9145ccb84606d-s.p.fa7e779d.woff2",
-      "static/media/ee9d8ff0751135e3-s.p.9278acd4.woff2"
-    ],
     "[project]/app/page": [
       "static/media/31a9145ccb84606d-s.p.fa7e779d.woff2",
       "static/media/ee9d8ff0751135e3-s.p.9278acd4.woff2"

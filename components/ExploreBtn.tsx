@@ -7,7 +7,7 @@ const ExploreBtn = () => {
 
     }
     return (
-        <button type="button" id="explore-btn" className="mt-7 mx-auto" onClick={() => handleClick}>
+        <button type="button" id="explore-btn" className="mt-4 mx-auto" onClick={() => handleClick}>
             <a href="#evnets">
                 Explore Events
                 <Image src="/icons/arrow-down.svg" alt="arrow-down" width={24} height={24} />

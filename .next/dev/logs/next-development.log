@@ -1,151 +1,17 @@
-[00:00:02.320] Server  LOG      ✓ Ready in 1425ms
-[00:00:07.162] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:00:08.382] Browser WARN    Image with src "http://localhost:3000/vercel.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:02:18.826] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:08:32.904] Server  LOG      ✓ Compiled in 184ms
-[00:13:14.621] Server  LOG      ✓ Compiled in 103ms
-[00:14:52.951] Server  LOG      ✓ Compiled in 318ms
-[00:17:16.425] Server  ERROR    ⨯ ReferenceError: Geist is not defined
-[00:17:16.771] Server  ERROR    ⨯ ReferenceError: Geist is not defined
-[00:17:16.786] Server  LOG      ✓ Compiled in 222ms
-[00:17:18.750] Server  ERROR    ⨯ ReferenceError: Geist is not defined
-[00:17:18.980] Server  ERROR    ⨯ ReferenceError: Geist is not defined
-[00:17:19.188] Browser ERROR   uncaughtError: ReferenceError: Geist is not defined
-[00:17:45.163] Server  LOG      ✓ Compiled in 441ms
-[00:17:57.518] Server  LOG      ✓ Compiled in 202ms
-[00:18:49.787] Server  LOG      ✓ Compiled in 66ms
-[00:19:01.508] Server  LOG      ✓ Compiled in 42ms
-[00:22:57.994] Server  LOG      ✓ Compiled in 35ms
-[00:23:34.657] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:33:55.176] Server  LOG      ✓ Compiled in 439ms
-[01:14:24.673] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[01:14:38.466] Server  ERROR    ⨯ Error: Event handlers cannot be passed to Client Component props.
-  <button onClick={function onClick} children=...>
-                  ^^^^^^^^^^^^^^^^^^
-If you need interactivity, consider converting part of this to a Client Component.
-[01:14:38.620] Browser ERROR   uncaughtError: Error: Event handlers cannot be passed to Client Component props.
-  <button onClick={function onClick} children=...>
-                  ^^^^^^^^^^^^^^^^^^
-If you need interactivity, consider converting part of this to a Client Component.
-[01:14:46.983] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[01:14:56.161] Server  LOG      ✓ Compiled in 36ms
-[01:15:08.180] Server  LOG      ✓ Compiled in 26ms
-[01:15:33.956] Server  LOG      ✓ Compiled in 75ms
-[01:17:07.876] Server  LOG      ✓ Compiled in 39ms
-[01:17:08.379] Browser ERROR   uncaughtError: TypeError: Failed to construct 'Image': Please use the 'new' operator, this DOM object constructor cannot be called as a function.
-[01:18:21.126] Server  ERROR    ⨯ Error: Image with src "/icons/arrow-down.svg" has invalid "width" property. Expected a numeric value in pixels but received "24px".
-[01:18:21.166] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
-[01:18:21.472] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[01:18:22.384] Browser ERROR   uncaughtError: Error: Image with src "/icons/arrow-down.svg" has invalid "width" property. Expected a numeric value in pixels but received "24px".
-[01:18:24.920] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
-[01:18:25.066] Server  ERROR    ⨯ Error: Image with src "/icons/arrow-down.svg" is missing required "height" property.
-[01:18:25.087] Server  LOG      ✓ Compiled in 23ms
-[01:18:25.232] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[01:18:26.379] Browser ERROR   uncaughtError: Error: Image with src "/icons/arrow-down.svg" is missing required "height" property.
-[01:18:33.802] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
-[01:18:33.814] Server  LOG      ✓ Compiled in 27ms
-[01:18:34.115] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[01:18:34.381] Browser WARN    Image with src "http://localhost:3000/icons/arrow-down.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[01:18:54.476] Server  LOG      ✓ Compiled in 28ms
-[01:44:22.321] Server  LOG      ✓ Compiled in 174ms
-[01:54:02.345] Server  LOG      ✓ Compiled in 1257ms
-[01:54:03.551] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[01:54:03.551] Browser WARN    Image with src "http://localhost:3000/icons/arrow-down.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[02:09:41.481] Server  LOG      ✓ Compiled in 192ms
-[02:10:00.187] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[02:10:00.350] Browser WARN    Image with src "http://localhost:3000/icons/arrow-down.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[02:10:13.427] Browser ERROR   Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. [object Object]
-[02:10:13.427] Browser ERROR   Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. [object Object]
-[02:10:13.427] Browser ERROR   Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. [object Object]
-[02:10:13.427] Browser ERROR   Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. [object Object]
-[02:10:13.427] Browser ERROR   Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. [object Object]
-[02:10:13.427] Browser ERROR   Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. [object Object]
-[02:10:13.427] Browser ERROR   Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. [object Object]
-[02:10:13.427] Browser ERROR   Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. [object Object]
-[02:10:13.427] Browser ERROR   Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. [object Object]
-[02:10:13.427] Browser ERROR   Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. [object Object]
-[02:10:13.427] Browser ERROR   Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. [object Object]
-[02:10:13.427] Browser ERROR   Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. [object Object]
-[02:10:13.427] Browser ERROR   uncaughtError: Error: Objects are not valid as a React child (found: object with keys {image, title, slug, location, date, time}). If you meant to render a collection of children, use an array instead.
-[02:11:35.506] Server  ERROR    ⨯ Error: Objects are not valid as a React child (found: object with keys {id, image, title, slug, location, date, time}). If you meant to render a collection of children, use an array instead.
-[02:11:35.680] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[02:11:36.379] Browser ERROR   Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. [object Object]
-[02:11:36.379] Browser ERROR   Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. [object Object]
-[02:11:36.379] Browser ERROR   Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. [object Object]
-[02:11:36.379] Browser ERROR   Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. [object Object]
-[02:11:36.379] Browser ERROR   Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. [object Object]
-[02:11:36.379] Browser ERROR   Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. [object Object]
-[02:11:36.379] Browser ERROR   Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. [object Object]
-[02:11:36.379] Browser ERROR   Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. [object Object]
-[02:11:36.379] Browser ERROR   Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. [object Object]
-[02:11:36.379] Browser ERROR   Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. [object Object]
-[02:11:36.379] Browser ERROR   Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. [object Object]
-[02:11:36.379] Browser ERROR   Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. [object Object]
-[02:11:36.379] Browser ERROR   Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. [object Object]
-[02:11:36.379] Browser ERROR   Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. [object Object]
-[02:11:36.379] Browser ERROR   Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. [object Object]
-[02:11:36.379] Browser ERROR   Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. [object Object]
-[02:11:36.379] Browser ERROR   Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. [object Object]
-[02:11:36.379] Browser ERROR   Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. [object Object]
-[02:11:36.379] Browser ERROR   Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. [object Object]
-[02:11:36.379] Browser ERROR   Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. [object Object]
-[02:11:36.379] Browser ERROR   Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. [object Object]
-[02:11:36.379] Browser ERROR   Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. [object Object]
-[02:11:36.379] Browser ERROR   Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. [object Object]
-[02:11:36.379] Browser ERROR   Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. [object Object]
-[02:11:36.379] Browser ERROR   uncaughtError: Error: Objects are not valid as a React child (found: object with keys {id, image, title, slug, location, date, time}). If you meant to render a collection of children, use an array instead.
-[02:12:21.654] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[02:12:21.993] Browser WARN    Image with src "http://localhost:3000/icons/arrow-down.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[02:12:21.993] Browser WARN    Image with src "http://localhost:3000/icons/pin.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[02:12:21.993] Browser WARN    Image with src "http://localhost:3000/icons/clock.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[02:12:21.993] Browser WARN    Image with src "http://localhost:3000/icons/calendar.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[02:12:22.633] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/images/event1.png" "received" null
-[02:12:22.638] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/images/event3.png" "received" null
-[02:12:22.644] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/images/event6.png" "received" null
-[02:12:22.715] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/images/event5.png" "received" null
-[02:12:22.718] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/images/event4.png" "received" null
-[02:12:22.731] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/images/event2.png" "received" null
-[02:12:22.905] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/images/events-full.png" "received" null
-[02:12:52.409] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[02:12:52.564] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/images/events-full.png" "received" null
-[02:12:52.670] Browser WARN    Image with src "http://localhost:3000/icons/arrow-down.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[02:12:52.670] Browser WARN    Image with src "http://localhost:3000/icons/pin.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[02:12:52.670] Browser WARN    Image with src "http://localhost:3000/icons/calendar.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[02:12:52.670] Browser WARN    Image with src "http://localhost:3000/icons/clock.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[02:12:52.670] Browser WARN    Image with src "/images/event1.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[02:12:52.670] Browser WARN    Image with src "/images/event2.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[02:12:52.670] Browser WARN    Image with src "/images/event3.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[02:12:52.670] Browser WARN    Image with src "/images/event6.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[02:12:52.670] Browser WARN    Image with src "/images/event5.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[02:12:52.670] Browser WARN    Image with src "/images/event1.png" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+[00:00:03.052] Server  LOG      ✓ Ready in 2.3s
+[00:00:08.853] Server  LOG      ○ Compiling / ...
+[00:00:10.931] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:11.356] Browser WARN    Image with src "http://localhost:3000/icons/arrow-down.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:00:11.356] Browser WARN    Image with src "http://localhost:3000/icons/pin.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:00:11.356] Browser WARN    Image with src "http://localhost:3000/icons/calendar.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:00:11.356] Browser WARN    Image with src "http://localhost:3000/icons/clock.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:00:11.356] Browser WARN    Image with src "/images/event1.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:00:11.356] Browser WARN    Image with src "/images/event2.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:00:11.356] Browser WARN    Image with src "/images/event3.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:00:11.356] Browser WARN    Image with src "/images/event4.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:00:11.356] Browser WARN    Image with src "/images/event5.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:00:11.356] Browser WARN    Image with src "/images/event6.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:00:11.356] Browser WARN    Image with src "/images/event-full.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:00:11.468] Browser WARN    Image with src "/images/event1.png" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
 Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
-[02:12:52.670] Browser WARN    Image with src "/images/event4.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[02:13:38.206] Browser WARN    Image with src "/images/event-full.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[03:49:31.502] Server  LOG        Reload env: .env
-[03:49:32.349] Server  WARN     ⚠ Fast Refresh had to perform a full reload when ./node_modules/next/dist/client/image-component.js changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
-[03:49:33.263] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[03:49:34.381] Browser WARN    Image with src "http://localhost:3000/icons/arrow-down.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[03:49:34.381] Browser WARN    Image with src "http://localhost:3000/icons/pin.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[03:49:34.381] Browser WARN    Image with src "http://localhost:3000/icons/calendar.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[03:49:34.381] Browser WARN    Image with src "http://localhost:3000/icons/clock.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[03:49:55.438] Server  LOG        Reload env: .env
-[03:49:55.703] Server  WARN     ⚠ Fast Refresh had to perform a full reload when ./node_modules/next/dist/client/image-component.js changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
-[03:49:56.115] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[03:49:56.378] Browser WARN    Image with src "http://localhost:3000/icons/arrow-down.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[03:49:56.378] Browser WARN    Image with src "http://localhost:3000/icons/pin.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[03:49:56.378] Browser WARN    Image with src "http://localhost:3000/icons/calendar.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[03:49:56.378] Browser WARN    Image with src "http://localhost:3000/icons/clock.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[03:49:57.311] Server  LOG        Reload env: .env
-[03:49:57.508] Server  WARN     ⚠ Fast Refresh had to perform a full reload when ./node_modules/next/dist/client/image-component.js changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
-[03:49:58.133] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[03:49:58.369] Browser WARN    Image with src "http://localhost:3000/icons/arrow-down.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[03:49:58.369] Browser WARN    Image with src "http://localhost:3000/icons/pin.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[03:49:58.369] Browser WARN    Image with src "http://localhost:3000/icons/calendar.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[03:49:58.369] Browser WARN    Image with src "http://localhost:3000/icons/clock.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[03:50:23.129] Server  LOG        Reload env: .env
-[03:50:23.533] Server  WARN     ⚠ Fast Refresh had to perform a full reload when ./node_modules/next/dist/client/image-component.js changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
-[03:50:24.192] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[03:50:24.377] Browser WARN    Image with src "http://localhost:3000/icons/arrow-down.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[03:50:24.377] Browser WARN    Image with src "http://localhost:3000/icons/pin.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[03:50:24.377] Browser WARN    Image with src "http://localhost:3000/icons/calendar.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[03:50:24.377] Browser WARN    Image with src "http://localhost:3000/icons/clock.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[01:17:49.185] Server  LOG      ✓ Compiled in 396ms
