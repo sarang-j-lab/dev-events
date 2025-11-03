@@ -1,11 +1,21 @@
 import EventCard from "@/components/EventCard"
 import ExploreBtn from "@/components/ExploreBtn"
-import events from "@/lib/constants"
+import { EventItem } from "@/lib/constants";
+import { cacheLife } from "next/cache";
+// import events from "@/lib/constants"
 
-const page = () => {
+const BASE_URL = process.env.NEXT_PUBLIC_BASE_URL;
+
+const page = async() => {
+  "use cache"
+  cacheLife("hours");
+  const response = await fetch(`${BASE_URL}/api/events`);
+  const {events} = await response.json();
+  
+
   return (
    <section>
-    <h1 className="text-center text-[40px]">The Hub For Every Dev  Event You Can't Miss</h1>
+    <h1 className="text-center text-[40px]">The Hub For Every Dev  Event You Can&apos;t Miss</h1>
     <p className="text-center mt-5">Hackathons, Meetups, and Conferences, All in One Place</p>
 
     <ExploreBtn/>
@@ -14,11 +24,11 @@ const page = () => {
 
         <h3>Featured Events</h3>
 
-        <ul className="events list-none" >
-          {events.map((event)=>(
-            <li key={event.id}><EventCard {...event}/></li>
+        {events && events.length > 0 &&<ul className="events list-none" >
+          {events.map((event:EventItem)=>(
+            <li key={event._id}><EventCard {...event}/></li>
           ))}
-        </ul>
+        </ul>}
 
     </div>
    </section>
